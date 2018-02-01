@@ -25,7 +25,7 @@ AbsorbingBoundaryCondition=0;     %% 0 or 1
 
 AAbs=0;               %% Plot abs(E,H)
 RReal=1;              %% Plot real(E,H)
-IImag=1;              %% Plot imag(E,H)
+IImag=0;              %% Plot imag(E,H)
 
 plotEx=1;
 plotEy=1;
