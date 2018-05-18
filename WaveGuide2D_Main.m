@@ -192,6 +192,7 @@ for i=1:6%length(neff)
       pcolor(x*1e6,y*1e6,A/max(abs(A(:))))
     end
     contour(x*1e6,y*1e6,abs(n),1,'linewidth',2,'linecolor','w')
+    plot([-1 1]*Dx*1e6,[0 0],'w','linewidth',2)
     
     if RReal==1 || IImag==1
         caxis([-1 1])
@@ -227,6 +228,7 @@ for i=1:6%length(neff)
       pcolor(x*1e6,y*1e6,A/max(abs(A(:))))
     end
     contour(x*1e6,y*1e6,abs(n),1,'linewidth',2,'linecolor','w')
+    plot([-1 1]*Dx*1e6,[0 0],'w','linewidth',2)
     
     if RReal==1 || IImag==1
         caxis([-1 1])
@@ -306,6 +308,7 @@ for i=1:6%length(neff)
       pcolor(x*1e6,y*1e6,A/max(abs(A(:))))
     end
     contour(x*1e6,y*1e6,abs(n),1,'linewidth',2,'linecolor','w')
+    plot([-1 1]*Dx*1e6,[0 0],'w','linewidth',2)
     
     if RReal==1 || IImag==1
         caxis([-1 1])
@@ -341,6 +344,7 @@ for i=1:6%length(neff)
       pcolor(x*1e6,y*1e6,A/max(abs(A(:))))
     end
     contour(x*1e6,y*1e6,abs(n),1,'linewidth',2,'linecolor','w')
+    plot([-1 1]*Dx*1e6,[0 0],'w','linewidth',2)
     
     if RReal==1 || IImag==1
         caxis([-1 1])
