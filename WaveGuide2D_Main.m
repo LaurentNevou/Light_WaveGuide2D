@@ -144,7 +144,7 @@ if plotElectricalField==1
 figure('Name','Electrical Field','position',[X0fig Y0fig Wfig Hfig])
 
 
-for i=1:length(neff)
+for i=1:6%length(neff)
     
     subplot(3,6,i)
     hold on
@@ -181,7 +181,7 @@ end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-for i=1:length(neff)
+for i=1:6%length(neff)
 
     subplot(3,6,i+6)
     hold on
@@ -216,7 +216,7 @@ end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-for i=1:length(neff)
+for i=1:6%length(neff)
 
     subplot(3,6,i+12)
     hold on
@@ -259,7 +259,7 @@ if plotMagneticalField==1
 
 figure('Name','Magnetical Field','position',[X0fig Y0fig Wfig Hfig])
 
-for i=1:length(neff)
+for i=1:6%length(neff)
     
     subplot(3,6,i)
     hold on
@@ -295,7 +295,7 @@ end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   
-for i=1:length(neff)
+for i=1:6%length(neff)
 
     subplot(3,6,i+6)
     hold on
@@ -330,7 +330,7 @@ end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-for i=1:length(neff)
+for i=1:6%length(neff)
 
     subplot(3,6,i+12)
     hold on
