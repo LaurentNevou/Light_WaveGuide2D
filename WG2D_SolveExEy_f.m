@@ -87,7 +87,7 @@ idx=logical( idx1.*idx2);
 
 neff=neff(idx);
 psi=psi(:,idx);
-%neff(end:-1:1)
+%neff=neff(end:-1:1);
 %psi=psi(:,end:-1:1);
 
 
